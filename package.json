@@ -1,0 +1,18 @@
+{
+  "name": "ds_hubfrc",
+  "version": "1.0.0",
+  "description": "O desenvolvimento de robôs de alta performance para a *FIRST Robotics Competition* (FRC) exige sincronia perfeita entre subequipes de mecânica, programação, negócios e mentoria. Atualmente, muitas equipes sofrem com a descentralização de informações, controle ineficiente de estoques de peças de alto custo e falhas crônicas de comunicação interna — cenários agravados pela curtíssima e intensa janela de tempo conhecida como *Build Season*.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.8.5",
+    "pg": "^8.21.0"
+  }
+}
