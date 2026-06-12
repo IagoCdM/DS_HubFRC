@@ -1,0 +1,20 @@
+###
+
+POST http://localhost:3000/api/inventario
+Content-Type: application/json
+
+{
+    "nome": "Motor Falcon 500",
+    "fabricante": "VEX",
+    "quantidade_atual": 6,
+    "quantidade_min": 2,
+    "localizacao": "Bancada A"
+}
+
+###
+
+GET http://localhost:3000/api/inventario
+
+###
+
+GET http://localhost:3000/api/inventario/1
