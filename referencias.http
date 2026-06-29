@@ -6,9 +6,9 @@ Content-Type: application/json
 {
     "nome": "Motor Falcon 500",
     "fabricante": "VEX",
-    "quantidade_atual": 6,
+    "quantidade_atual": 8,
     "quantidade_min": 2,
-    "localizacao": "Bancada A"
+    "localizacao": "Bancada B"
 }
 
 ###
@@ -17,4 +17,21 @@ GET http://localhost:3000/api/inventario
 
 ###
 
-GET http://localhost:3000/api/inventario/1
+GET http://localhost:3000/api/inventario/7
+
+###
+
+PUT http://localhost:3000/api/inventario/7
+Content-Type: application/json
+
+{
+  "nome": "Motor Falcon 500 V2",
+  "fabricante": "VEX Robotics",
+  "quantidade_atual": 12,
+  "quantidade_min": 2,
+  "localizacao": "Bancada B"
+}
+
+###
+
+DELETE http://localhost:3000/api/inventario/4
